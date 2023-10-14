@@ -1,0 +1,74 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": "3",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-12T22:28:27.052585",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "rawVersion": "1",
+          "description": "create-table-eventos",
+          "type": "SQL",
+          "installedOnUTC": "2023-10-10T10:38:52Z",
+          "state": "Future",
+          "undoable": "No",
+          "filepath": "",
+          "undoFilepath": "",
+          "installedBy": "u440037415_dev_depgirpro",
+          "executionTime": 336
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "rawVersion": "2",
+          "description": "create-table-usuarios",
+          "type": "SQL",
+          "installedOnUTC": "2023-10-10T10:38:54Z",
+          "state": "Future",
+          "undoable": "No",
+          "filepath": "",
+          "undoFilepath": "",
+          "installedBy": "u440037415_dev_depgirpro",
+          "executionTime": 344
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "rawVersion": "3",
+          "description": "create-table-asistentes",
+          "type": "SQL",
+          "installedOnUTC": "2023-10-10T10:38:57Z",
+          "state": "Future",
+          "undoable": "No",
+          "filepath": "",
+          "undoFilepath": "",
+          "installedBy": "u440037415_dev_depgirpro",
+          "executionTime": 535
+        }
+      ],
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "allSchemasEmpty": false,
+      "timestamp": "2023-10-12T22:29:29.772696400",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}
