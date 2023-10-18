@@ -237,6 +237,28 @@
       "operation": "migrate",
       "exception": null,
       "licenseFailed": false
+    },
+    {
+      "error": {
+        "errorCode": "FAILED_VERSIONED_MIGRATION",
+        "message": "Migration V1__Create_table.sql failed\n-------------------------------------\nSQL State  : 42S01\nError Code : 1050\nMessage    : (conn\u003d1860634521) Table \u0027sancion\u0027 already exists\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql)\nLine       : 2\nStatement  : #Tabla sancion\r\nCREATE TABLE sancion(\r\nid_sancion INT NOT NULL,\r\nsancion VARCHAR(15),\r\nid_multa_sancion INT\r\n)\n",
+        "stackTrace": null,
+        "lineNumber": 2,
+        "path": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql"
+      },
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": false,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-17T21:48:42.538860900",
+      "operation": "migrate",
+      "exception": "Migration V1__Create_table.sql failed\n-------------------------------------\nSQL State  : 42S01\nError Code : 1050\nMessage    : (conn\u003d1860634521) Table \u0027sancion\u0027 already exists\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql)\nLine       : 2\nStatement  : #Tabla sancion\r\nCREATE TABLE sancion(\r\nid_sancion INT NOT NULL,\r\nsancion VARCHAR(15),\r\nid_multa_sancion INT\r\n)\n",
+      "licenseFailed": false
     }
   ]
 }
