@@ -69,6 +69,30 @@
       "operation": "info",
       "exception": null,
       "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "Tabla jugadores",
+          "type": "SQL",
+          "filepath": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Tabla_jugadores.sql",
+          "executionTime": 463
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-13T21:29:16.720574900",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
     }
   ]
 }
