@@ -183,6 +183,30 @@
       "operation": "migrate",
       "exception": null,
       "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "Create table",
+          "type": "SQL",
+          "filepath": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql",
+          "executionTime": 2431
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-17T21:34:26.879622400",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
     }
   ]
 }
