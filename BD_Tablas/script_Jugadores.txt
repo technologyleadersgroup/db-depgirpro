@@ -10,7 +10,7 @@ altura DECIMAL(2,0),
 foto VARCHAR(100),
 correo VARCHAR(60),
 dorsal VARCHAR(2)
-);
+)
 
 
 
