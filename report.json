@@ -239,13 +239,6 @@
       "licenseFailed": false
     },
     {
-      "error": {
-        "errorCode": "FAILED_VERSIONED_MIGRATION",
-        "message": "Migration V1__Create_table.sql failed\n-------------------------------------\nSQL State  : 42S01\nError Code : 1050\nMessage    : (conn\u003d1860634521) Table \u0027sancion\u0027 already exists\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql)\nLine       : 2\nStatement  : #Tabla sancion\r\nCREATE TABLE sancion(\r\nid_sancion INT NOT NULL,\r\nsancion VARCHAR(15),\r\nid_multa_sancion INT\r\n)\n",
-        "stackTrace": null,
-        "lineNumber": 2,
-        "path": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql"
-      },
       "initialSchemaVersion": null,
       "targetSchemaVersion": null,
       "schemaName": "",
@@ -258,6 +251,60 @@
       "timestamp": "2023-10-17T21:48:42.538860900",
       "operation": "migrate",
       "exception": "Migration V1__Create_table.sql failed\n-------------------------------------\nSQL State  : 42S01\nError Code : 1050\nMessage    : (conn\u003d1860634521) Table \u0027sancion\u0027 already exists\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Create_table.sql)\nLine       : 2\nStatement  : #Tabla sancion\r\nCREATE TABLE sancion(\r\nid_sancion INT NOT NULL,\r\nsancion VARCHAR(15),\r\nid_multa_sancion INT\r\n)\n",
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": false,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-17T21:51:11.158901400",
+      "operation": "migrate",
+      "exception": "Migration V1__Script_llaves_primarias.sql failed\n------------------------------------------------\nSQL State  : 42S02\nError Code : 1146\nMessage    : (conn\u003d1860645746) Table \u0027u440037415_dev_depgirpro.alquiler_canchas\u0027 doesn\u0027t exist\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Script_llaves_primarias.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Script_llaves_primarias.sql)\nLine       : 5\nStatement  : #tabla alquiler_canchas\r\nALTER TABLE alquiler_canchas MODIFY COLUMN id_alquiler INT NOT NULL AUTO_INCREMENT PRIMARY KEY\n",
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": false,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-17T21:52:48.570557700",
+      "operation": "migrate",
+      "exception": "Migration V1__Script_llaves_primarias.sql failed\n------------------------------------------------\nSQL State  : 42000\nError Code : 1068\nMessage    : (conn\u003d1860652287) Multiple primary key defined\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Script_llaves_primarias.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Script_llaves_primarias.sql)\nLine       : 2\nStatement  : # tabla jugadores\r\nALTER TABLE jugadores MODIFY COLUMN id_jugador INT NOT NULL AUTO_INCREMENT PRIMARY KEY\n",
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "Script llaves primarias",
+          "type": "SQL",
+          "filepath": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V1__Script_llaves_primarias.sql",
+          "executionTime": 2929
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-17T21:57:47.084828200",
+      "operation": "migrate",
+      "exception": null,
       "licenseFailed": false
     }
   ]
