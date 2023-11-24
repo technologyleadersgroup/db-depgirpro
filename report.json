@@ -368,6 +368,21 @@
       "operation": "migrate",
       "exception": null,
       "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-11-23T20:13:33.584588700",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
     }
   ]
 }
