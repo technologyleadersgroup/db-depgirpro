@@ -1,6 +1,4 @@
-SHOW DATABASES;
- 
-USE GIRARPRO;
+
 
 CREATE TABLE sancion(
 id_sancion INT NOT NULL,
