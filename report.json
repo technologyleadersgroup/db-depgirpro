@@ -308,13 +308,6 @@
       "licenseFailed": false
     },
     {
-      "error": {
-        "errorCode": "FAILED_VERSIONED_MIGRATION",
-        "message": "Migration V2__Script_llaves_foraneas.sql failed\n-----------------------------------------------\nSQL State  : 42000\nError Code : 1064\nMessage    : (conn\u003d1860680930) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \u0027.\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V2__Script_llaves_foraneas.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V2__Script_llaves_foraneas.sql)\nLine       : 47\nStatement  : .\r\n\r\n\r\n#Tabla disponibilidad_canchas\r\nALTER TABLE disponibilidad_canchas ADD FOREIGN KEY(id_alquiler) REFERENCES alquiler_canchas (id_alquiler)\n",
-        "stackTrace": null,
-        "lineNumber": 47,
-        "path": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V2__Script_llaves_foraneas.sql"
-      },
       "initialSchemaVersion": "1",
       "targetSchemaVersion": null,
       "schemaName": "",
@@ -327,6 +320,38 @@
       "timestamp": "2023-10-17T22:00:43.868941700",
       "operation": "migrate",
       "exception": "Migration V2__Script_llaves_foraneas.sql failed\n-----------------------------------------------\nSQL State  : 42000\nError Code : 1064\nMessage    : (conn\u003d1860680930) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \u0027.\nLocation   : C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V2__Script_llaves_foraneas.sql (C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V2__Script_llaves_foraneas.sql)\nLine       : 47\nStatement  : .\r\n\r\n\r\n#Tabla disponibilidad_canchas\r\nALTER TABLE disponibilidad_canchas ADD FOREIGN KEY(id_alquiler) REFERENCES alquiler_canchas (id_alquiler)\n",
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "1",
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "Script llaves foraneas",
+          "type": "SQL",
+          "filepath": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V2__Script_llaves_foraneas.sql",
+          "executionTime": 2031
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "script llaves foraneas",
+          "type": "SQL",
+          "filepath": "C:\\Users\\javie\\OneDrive\\Escritorio\\DB-Girarpro2\\db-depgirpro\\BD_Tablas\\V3__script_llaves_foraneas.sql",
+          "executionTime": 1817
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-10-17T22:12:00.006851800",
+      "operation": "migrate",
+      "exception": null,
       "licenseFailed": false
     }
   ]
